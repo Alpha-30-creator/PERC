@@ -3,7 +3,7 @@ body{
 }
 .home-header{
   background-color:white;
-  width:100%;
+  width: 100%;
   height:12%;
   display: inline-block;
   margin:0px;
@@ -13,6 +13,14 @@ body{
   margin-right: auto;
   display: inline;
   padding-top:7px;
+
+}
+@media screen and (max-width: 600px) {
+  .logo{
+    width: 25%;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+  }
 }
 .topnav {
   background-color: #333;
@@ -61,10 +69,36 @@ body{
     text-align: left;
   }
 }
+.container {
+  background-color: #cccccc;
+  height:absolute;
+  width:100%;
+  position: relative;
+  display: inline-block;
+  margin:0px;
+}
+.mainpic-home{
+  display:inline-block;
+  margin:0px;
+  padding: 0px;
+  height:auto;
+  width: 100%;
+  float: right;
+}
+.bottom-left {
+  padding: 5px 10px;
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 5vw;
+  font-weight: bold;
+  color: white;
+}
+
 .heading{
   font-family: "Montserrat";
   font-size: 20px;
-  text-align: left;
+  text-align: center;
   border-bottom: solid;
   border-width: 3px;
   border-color: grey;
@@ -76,7 +110,7 @@ body{
 .detail{
   text-align: justify;
   font-size: 16px;
-  padding: 20px;
+  padding: 15px 20px;
 }
 @media screen and (max-width: 600px) {
   .heading{
@@ -85,4 +119,14 @@ body{
   .detail{
     font-size: 2vw;
   }
+}
+.businessunit{
+  display: inline-block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+.unit-container{
+
 }
