@@ -129,7 +129,7 @@ body{
 .unit-container{
    position: relative;
    text-align: center;
-   color: white;
+   color: black;
    display:inline-block;
    width: 30%;
 }
@@ -140,4 +140,54 @@ body{
   transform: translate(-50%, -50%);
   font-size: 3vw;
   font-weight: bold;
+}
+footer{
+  background-color: white;
+  margin: 10% 0px 0px 0px;
+  display: inline-block;
+  width: 100%;
+  font-weight: bold;
+}
+.footer-header{
+  color:black;
+  text-align: center;
+  width:100%;
+  height:12%;
+  display: inline-block;
+  margin:0px;
+  padding-top: -1px;
+}.content{
+  text-align: center;
+}
+.content a{
+  color: black;
+  font-size: 11px;
+}
+.contact{
+  width:100%;
+  text-align: center;
+  margin: 2.5% 0px;
+}
+.contact a{
+  padding: 0px 10px;
+}
+.contact i{
+  color: black;
+  font-size: 20px;
+}
+.mail{
+  padding: 10px 0px;
+  font-size: 10px;
+  color: black;
+}
+.mail a{
+  color: black;
+}
+.end{
+  color: black;
+  font-size: 11px;
+}
+.logo1{
+  display: inline;
+  padding-top:9px;
 }
