@@ -124,9 +124,27 @@ body{
   display: inline-block;
   background-color: black;
   color: white;
-  text-align: center;
   width: 100%;
 }
 .unit-container{
-
+   position: relative;
+   text-align: center;
+   color: white;
+   display:inline-block;
+   width: 30%;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3vw;
+  font-weight: bold;
+}
+button{
+  border-radius: 10px;
+  border-color: white;
+  background-color: transparent;
+  top: 60%;
+  left:50%;
 }
