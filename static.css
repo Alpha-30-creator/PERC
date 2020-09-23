@@ -141,10 +141,3 @@ body{
   font-size: 3vw;
   font-weight: bold;
 }
-button{
-  border-radius: 10px;
-  border-color: white;
-  background-color: transparent;
-  top: 60%;
-  left:50%;
-}
